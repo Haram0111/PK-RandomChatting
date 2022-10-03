@@ -1,15 +1,15 @@
 import React from "react";
-import Main from "../Component/Main";
+import Signup from "../Component/Signup";
 import Background from "../Atom/Background";
 import Title from "../Component/title";
 
-function MainPage() {
+function SingupPage1() {
   return (
     <Background>
       <Title/>
-      <Main />
+      <Signup/>
     </Background>
   );
 }
 
-export default MainPage;
+export default SingupPage1;
